@@ -20,7 +20,7 @@ body {
     min-height:100vh;
     grid-template-columns: 100%;
     grid-template-rows: auto 1fr auto;
-    padding:50px;
+    padding:3%;
 
 } 
 img {
@@ -68,10 +68,10 @@ header h1 {
     z-index:900;
 }
 .prev {
-    left:60px;
+    left:8%;
 }
 .next {
-    right:60px;
+    right:8%;
 }
 
 .hero-slider-th-container{
@@ -87,7 +87,7 @@ header h1 {
 }
 
 .hero-slider{
-    padding:50px;
+    padding:8%;
     background-color: aquamarine;
     margin-bottom:30px;
 }
@@ -129,7 +129,7 @@ footer p {
     grid-template-columns: repeat(3, 1fr);    
     grid-template-rows: repeat(2, 1fr);
     grid-gap:50px;
-    padding:50px;
+    padding:8%;
     background-color: aquamarine;
 
 }
