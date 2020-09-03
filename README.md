@@ -1,7 +1,7 @@
 # exercise0903
 
-# description
+## description
 This is slider and gallery page using css and js.
 
-# demo
+## demo
 https://chihirokatoca.github.io/exercise0903/
