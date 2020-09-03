@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/day19.css">
+    <title>Hero Slider</title>
+</head>
+<body>
+    
+    <main>
+        <div class="hero-slider">
+            <div class="hero-slideshow cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#prev"
+                data-cycle-next="#next"
+                data-cycle-pager="#adv-custom-pager"
+                data-cycle-pager-template="<a href='#'><img src='{{src}}' alt='{{alt}}'></a>">
+                <img src="images/aurora-01.jpeg" alt="banner1"/>
+                <img src="images/aurora-01.jpeg" alt="banner2"/>
+                <img src="images/aurora-01.jpeg" alt="banner3"/>
+                <img src="images/aurora-01.jpeg" alt="banner4"/>
+            </div>
+            <!-- <div id="adv-custom-pager" class="hero-slider-th-container"></div>
+            <div class="hero-slider-controls-container"> -->
+                <!-- <button id="prev" class="prev"><span class="sr-only">Prevous Slide</span><img src="images/arrow-left-white.png" alt="arrow-left"></button> -->
+                <!-- <button id="next" class="next"><span class="sr-only">Next Slide</span><img src="images/arrow-right-white.png" alt="arrow-right"></button> -->
+                <button id="prev" class="prev"><span class="sr-only">Prevous Slide</span><i class="fas fa-chevron-left"></i></button>
+                <button id="next" class="next"><span class="sr-only">Next Slide</span><i class="fas fa-chevron-right"></i></button>
+
+            </div>
+
+            <section class="card-container">
+                <div class="card">
+                    <div ><img class="card-image" src="images/hands-with-flower.jpg" alt=""></div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="images/lady-in-forest.jpg" alt="">
+                </div>
+                <div class="card">
+                    <img class="card-image" src="images/road-through-mountain.jpg" alt="">
+                </div>
+                <div class="card">
+                    <img class="card-image" src="images/skiers-on-mountain-top.jpg" alt="">
+                </div>
+                <div class="card">
+                    <img class="card-image" src="images/sunset-over-lake.jpg" alt="">
+                </div>
+                <div class="card">
+                    <img class="card-image" src="images/yosemite-national-park.jpg" alt="">
+                </div>
+            </section>
+    </main>
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/jquery.cycle2.min.js"></script>
+</body>
+</html>
